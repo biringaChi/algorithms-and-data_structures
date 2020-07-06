@@ -1,11 +1,11 @@
 package com.data_structures;
 import java.util.Arrays;
 
-public class MyArrayList<E> {
+public class ArrayList<E> {
     private int size = 0;
     private Object[] elements;
 
-    public MyArrayList() {
+    public ArrayList() {
         int default_capacity = 10;
         elements = new Object[default_capacity];
     }

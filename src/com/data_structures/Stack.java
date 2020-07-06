@@ -1,6 +1,7 @@
 package com.data_structures;
+// LIFO
 
-public class MyStack {
+public class Stack {
 
     int[] stack = new int[5];
     int top = 0;
@@ -41,7 +42,7 @@ public class MyStack {
     }
 
     public static void main(String[] args) {
-        MyStack myStack = new MyStack();
-        myStack.displayStack();
+        Stack stack = new Stack();
+        stack.displayStack();
     }
 }

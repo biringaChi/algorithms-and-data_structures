@@ -2,7 +2,7 @@ package com.data_structures;
 
 // FIFO
 
-public class MyQueue {
+public class Queue {
     int[] queue = new int[5];
     int size = 0, front = 0, rear = 0;
 
@@ -40,7 +40,7 @@ public class MyQueue {
     }
 
     public static void main(String[] args) {
-        MyQueue myQueue = new MyQueue();
-        myQueue.displayQueue();
+        Queue queue = new Queue();
+        queue.displayQueue();
     }
 }
