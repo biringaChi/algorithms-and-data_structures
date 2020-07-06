@@ -20,4 +20,4 @@ public class IterativeBinarySearch {
     }
 }
 
-// Worst Time Complextiy = O(logn)
+// Worst Time Complexity = O(logn)

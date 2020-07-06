@@ -42,3 +42,6 @@ public class BreathFirstSearch {
         bfs.breathFirstSearch(1);
     }
 }
+
+// Time Complexity = O(V + E)
+

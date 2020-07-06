@@ -20,4 +20,4 @@ public class RecursiveBinarySearch {
     }
 }
 
-// Worst Time Complextiy = O(logn)
+// Worst Time Complexity = O(logn)
