@@ -1,11 +1,11 @@
 package com.data_structures;
 
 public class Tree {
-    int value;
+    int key;
     Tree leftNode, rightNode;
 
-    public Tree(int value) {
-        this.value = value;
+    public Tree(int key) {
+        this.key = key;
         leftNode = null;
         rightNode = null;
     }

@@ -9,7 +9,7 @@ class BinaryTree {
 
     public void displayPreOrder(Tree rootNode) {
         if (rootNode == null) return;
-        System.out.print(rootNode.value + " ");
+        System.out.print(rootNode.key + " ");
         displayPreOrder(rootNode.leftNode);
         displayPreOrder(rootNode.rightNode);
     }
@@ -17,7 +17,7 @@ class BinaryTree {
     public void displayInOrder(Tree rootNode) {
         if(rootNode == null) return;
         displayInOrder(rootNode.leftNode);
-        System.out.print(rootNode.value + " ");
+        System.out.print(rootNode.key + " ");
         displayInOrder(rootNode.rightNode);
     }
 
@@ -25,7 +25,7 @@ class BinaryTree {
         if(rootNode == null) return;
         displayPostOrder(rootNode.leftNode);
         displayPostOrder(rootNode.rightNode);
-        System.out.print(rootNode.value + " ");
+        System.out.print(rootNode.key + " ");
     }
 
     public void callDisplayPreOrder() {
