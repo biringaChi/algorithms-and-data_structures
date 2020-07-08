@@ -3,11 +3,11 @@ package com.algorithms.search;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class DepthFirstSearch {
+public class DepthFirstSearchRecursion {
     int vertices;
     LinkedList<Integer>[] adjacent;
 
-    DepthFirstSearch(int vertices) {
+    DepthFirstSearchRecursion(int vertices) {
         this.vertices = vertices;
         adjacent = new LinkedList[vertices];
         for (int i = 0; i < vertices; ++i) adjacent[i] = new LinkedList();
@@ -32,7 +32,7 @@ public class DepthFirstSearch {
     }
 
     public static void main(String[] args) {
-        DepthFirstSearch dfs = new DepthFirstSearch(8);
+        DepthFirstSearchRecursion dfs = new DepthFirstSearchRecursion(8);
         dfs.addEdge(1, 2);
         dfs.addEdge(1, 3);
         dfs.addEdge(2, 4);
