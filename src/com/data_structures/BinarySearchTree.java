@@ -44,8 +44,8 @@ public class  BinarySearchTree {
     public void callInsert(int key) { rootNode = insert(rootNode, key); }
     public void callDelete(int key) { rootNode = delete(rootNode, key); }
 
-    public void callDisplayPreOrder() {
-        bt.displayPreOrder(rootNode);
+    public void callDisplayPreOrderRecursive() {
+        bt.displayPreOrderRecursive(rootNode);
     }
 
     public static void main(String[] args) {
@@ -59,6 +59,6 @@ public class  BinarySearchTree {
         bst.callInsert(20);
         bst.callInsert(60);
         bst.callDelete(60);
-        bst.callDisplayPreOrder();
+        bst.callDisplayPreOrderRecursive();
     }
 }
