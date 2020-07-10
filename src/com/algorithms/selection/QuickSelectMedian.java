@@ -2,7 +2,6 @@ package com.algorithms.selection;
 
 public class QuickSelectMedian {
     public static double quickSelect(int[] nums) {
-        double mid;
         quickSortSmallest(nums, 0, nums.length - 1);;
         if(nums.length % 2 == 0) return (double) (nums[nums.length / 2] + nums[nums.length / 2 - 1] ) / 2;
         else return nums[nums.length / 2];
