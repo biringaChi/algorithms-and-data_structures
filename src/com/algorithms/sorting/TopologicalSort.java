@@ -6,7 +6,6 @@ public class TopologicalSort {
     public int vertex;
     public ArrayList<ArrayList<Integer>> adjacent;
 
-    //Constructor
     TopologicalSort(int vertex) {
         this.vertex = vertex;
         adjacent = new ArrayList<>(vertex);
