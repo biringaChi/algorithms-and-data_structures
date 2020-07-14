@@ -35,3 +35,8 @@ public class HeapSort {
         System.out.println("Sorted Array: " + java.util.Arrays.toString(nums));
     }
 }
+
+/*
+ Time Complexity for building a maxheap = O(n);
+ Time Complexity of heapsort = O(nlogn)
+*/
